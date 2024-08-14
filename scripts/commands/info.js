@@ -26,23 +26,23 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
   
-var callback = () => api.sendMessage({body:` আসালামু আলাইকুম ❤️জ্বি বলুন আমি সুনছি❤️ ইমন ভাইকে কিছু বলতে চান? 
+var callback = () => api.sendMessage({body:` আসালামু আলাইকুম ❤️জ্বি বলুন আমি সুনছি❤️ মাহি ভাইকে কিছু বলতে চান? 
 
 --------------------------------------------
 
-FACEBOOK :  EMON HAWLADAR 
+NAME :  MAHI AHMED 
 
 GENDER : MALE
 
-Age : 23+
+Age : 20+
 
 Relationship : SINGLE 😓
 
-Work : JOB Malaysia
+Work : STUDY
 
-FACEBOOK LINK : https://www.facebook.com/EMon.BHai.FACEBOOK
+FACEBOOK LINK : https://www.facebook.com/profile.php?id=100089286199594
 
-Wp : wa.me/+8801309991724
+Wp : Secret
 
 TELEGRAM : আ্ঁম্মু্ঁ এ্ঁগু্ঁলা্ঁ চা্ঁলা্ঁতে্ঁ মা্ঁনা্ঁ ক্ঁরে্ঁছে্ঁ🐰💦
 
