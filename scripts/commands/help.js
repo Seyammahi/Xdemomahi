@@ -182,11 +182,11 @@ module.exports.run = function({ api, event, args, getText }) {
 
     const text = `\n◇──◆──◇──◆\n𝐏𝐀𝐆𝐄   (${page}/${Math.ceil(arrayInfo.length / numberOfOnePage)})\n◇──◆──◇──◆\n𝗧𝘆𝗽𝗲: ${prefix}h𝗲𝗹𝗽\n𝘂𝘀𝗲𝗿𝗻𝗮𝗺𝗲: ${global.config.BOTNAME}\n𝗧𝗼𝘁𝗮𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀: ${arrayInfo.length}\n════ ⋆★⋆ ════ ⋆★⋆ ════\n𝙋𝙍𝙊𝙅𝙀𝘾𝙏 𝘽𝙔: 🌺𝙀𝙈𝙤𝙣-𝘽𝙃𝙖𝙞🌺\n════ ⋆★⋆ ════ ⋆★⋆ ════\nhttps://facebook.com/EMon.BHai.FACEBOOK`;
     var link = [
-      "https://i.postimg.cc/Fzz2nTts/20230828-124055.jpg",
-      "https://i.postimg.cc/9z3PbCtH/image.png",
-      "https://i.postimg.cc/qv1wVVpy/EMon-BHai.png",
-      "https://i.postimg.cc/SN8KGWQw/20230908-205103-0000.png",
-      "https://i.postimg.cc/pXbwwdFF/EMon-BHai-20230908-213516-0000.png"
+      "https://i.ibb.co/PcFx4GJ/image.jpg",
+      "https://i.ibb.co/JpJmFsZ/image.jpg",
+      "https://i.ibb.co/R9gS8FR/image.jpg",
+      "https://i.ibb.co/SrshqWM/image.jpg",
+      "https://i.ibb.co/JmM0k4Z/image.jpg"
     ]
     var callback = () => api.sendMessage({ body: siu + "\n\n" + msg + text, attachment: fs.createReadStream(__dirname + "/cache/leiamnashelp.jpg") }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/leiamnashelp.jpg"), event.messageID);
     return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/leiamnashelp.jpg")).on("close", () => callback());
